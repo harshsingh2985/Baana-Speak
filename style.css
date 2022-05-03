@@ -2,6 +2,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #e2e8f0;
+    
 }
 
 .head{
@@ -15,20 +17,81 @@ body{
 
 }
 
-
-
-
-
-
-
-
-
-textarea{
-
-    margin:1rem;
-    padding:1rem;
-    display:block;
-    width:90%;
-    height:10vh;
+/* container */
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.container-center{
+    max-width:600px;
+    margin:auto;
 
 }
+.para{
+    text-align: center;
+    font-size:large;
+
+}
+
+
+/* link */
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+
+}
+.primary-link{
+    background-color: blue;
+    border:0.5rem;
+    border:1px solid red;
+
+}
+
+
+/* list */
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display:inline;
+    padding:0rem 0.5rem;
+
+}
+
+/* footer  */
+.footer{
+    background-color: blue;
+    height:10vh;
+    margin:auto;
+    /* padding-left:1rem;
+    padding-right:1rem; */
+    text-align: center;
+    border-radius: 1rem;
+    padding:2rem 3rem;
+}
+
+.footer.link{
+    color:white;
+
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
+
+
+
+
+    textarea {
+        margin: 2rem;
+        width: 70%;
+        height: 200px;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+        border-radius: 1rem;
+        border: none;
+        font-size: 1.4rem;
+        background-color: rgb(250, 242, 200);
+        box-shadow: 5px 10px 8px rgb(51, 45, 45);
+    }
