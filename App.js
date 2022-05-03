@@ -1,15 +1,22 @@
-var translateButton = document.querySelector("#translate-button");
+var btntranslate=document.querySelector("#btn-translate");
 
-var txtInput=document.querySelector("#txt-input");
+ var inputText=document.querySelector("#txt-input")
+ console.log(inputText);
 
-console.log(txtInput);
+
+ function clickhandler(){
+     console.log("You have been clicked");
+     
+ }
+
+ btntranslate.addEventListener("click",clickhandler);
 
 
-function buttonClickHandler() {
-    console.log("button clicked");
-    console.log("input",txtInput.value)
 
-}
-translateButton.addEventListener("click", buttonClickHandler);
+
+
+
+
+
 
 

@@ -17,6 +17,19 @@ body{
 
 }
 
+/* button */
+.button{
+    display: inline-block;
+    background-color: coral;
+    height:5vh;
+
+
+
+
+}
+
+
+
 /* container */
 .container{
     padding-left:1rem;
