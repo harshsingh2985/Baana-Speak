@@ -9,7 +9,7 @@ var btntranslate=document.querySelector("#btn-translate");
      
  }
 
- btntranslate.addEventListener("click",clickhandler);
+ btntranslate.addEventListener("click",clickhandler());
 
 
 
