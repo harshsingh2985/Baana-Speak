@@ -1,7 +1,7 @@
 var btntranslate=document.querySelector("#btn-translate");
 
  var inputText=document.querySelector("#txt-input")
- console.log(inputText);
+ console.log(inputText.value);
 
 
  function clickhandler(){
